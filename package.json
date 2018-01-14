@@ -28,7 +28,8 @@
   "dependencies": {
     "babel-runtime": "^6.20.0",
     "react": "^15.4.1",
-    "react-dom": "^15.4.1"
+    "react-dom": "^15.4.1",
+    "react-scroll2top-button": "file:../react-scroll2top-button"
   },
   "devDependencies": {
     "babel-core": "^6.21.0",
@@ -51,8 +52,5 @@
     "react-transform-hmr": "^1.0.4",
     "webpack": "^1.14.0",
     "webpack-dev-server": "^1.16.2"
-  },
-  "localDependencies": {
-    "react-scroll2top-button": "../react-scroll2top-button"
   }
 }
