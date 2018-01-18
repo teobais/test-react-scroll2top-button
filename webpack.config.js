@@ -70,9 +70,8 @@ module.exports = {
     loaders: [
       {
         test: /\.jsx?$/,
-        loaders: ['babel'],
-        // include: [path.join(__dirname, 'scripts'),path.resolve(__dirname, 'node_modules/react-scroll2top-button/')]
-        include: [path.join(__dirname, 'scripts'),path.resolve(__dirname, 'node_modules/react-scroll2top-button/index.js')]
+        loader: 'babel-loader',
+        exclude: /node_modules/
       }
     ]
   }
